@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-env --allow-net main.ts",
+    "start": "deno run --allow-read --allow-env --allow-net main.ts"
+  },
+  "imports": {
+    "@mathieuc/tradingview": "npm:@mathieuc/tradingview@^3.4.6",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
